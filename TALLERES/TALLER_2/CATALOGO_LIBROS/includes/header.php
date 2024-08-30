@@ -10,7 +10,6 @@
         h3 { margin: 0; color: #333; }
         .titulo{text-align: center;}
     </style>
-</head>
 <body>
 <header>
     <h1 class="titulo">CATÁLOGO DE LIBROS</h1>
