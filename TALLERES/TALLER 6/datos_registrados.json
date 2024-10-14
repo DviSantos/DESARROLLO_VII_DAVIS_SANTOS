@@ -1,0 +1,29 @@
+[
+    {
+        "nombre": "Davis",
+        "email": "wasfsa@gmail.com",
+        "edad": "23",
+        "nacimiento": "",
+        "sitio_web": "https:\/\/www.konzerta.com\/empleos-seniority-junior-busqueda-soporte-tecnico.html",
+        "genero": "masculino",
+        "intereses": [
+            "deportes",
+            "musica"
+        ],
+        "comentarios": "si",
+        "foto_perfil": "uploads\/Saitama.jpg"
+    },
+    {
+        "nombre": "Luis",
+        "email": "luis@gmail.com",
+        "edad": "21",
+        "nacimiento": "",
+        "sitio_web": "https:\/\/www.konzerta.com\/empleos-seniority-junior-busqueda-soporte-tecnico.html",
+        "genero": "masculino",
+        "intereses": [
+            "deportes"
+        ],
+        "comentarios": "hola mundo",
+        "foto_perfil": "uploads\/Profesor Tesla.png"
+    }
+]

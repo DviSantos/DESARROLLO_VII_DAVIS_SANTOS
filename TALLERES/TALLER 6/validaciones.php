@@ -47,4 +47,13 @@ function validarFotoPerfil($archivo) {
 
     return true;
 }
+
+
+//funcion para validar fecha de nacimiento
+
+function validarFechaNacimiento($fecha) {
+    $fechaActual = date("Y-m-d");
+    // Verifica que la fecha sea válida y que no sea futura
+    return $fecha <= $fechaActual;
+}
 ?>
