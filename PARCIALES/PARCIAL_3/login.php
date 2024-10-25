@@ -9,7 +9,7 @@ $error = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $usuario = $_POST['usuario'];
     $contrasena = $_POST['contrasena'];
-    if (!isset($users[$usuario]) && $contrasena == $users[$contrasena]) {
+    if (!isset($users[$usuario]) && $contrasena === $users[$usuario]) {
         $_SESSION['usuario'] = $usuario;
         setcookie("usuario", $usuario, time() + 3600, "/");
         header("Location: dashboard.php");
