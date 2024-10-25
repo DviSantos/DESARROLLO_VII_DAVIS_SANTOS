@@ -12,8 +12,6 @@ if (!isset($_SESSION['tareas'])) {
 $error = "";
 $vacio = "";
 
-//procesar y validar formulario de tareas y mostrarlo en el html
-
 if (!isset($_POST['tarea']) || !isset($_POST['fecha_limite'])) {
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $tarea = htmlspecialchars($_POST['tarea']);
@@ -40,7 +38,7 @@ if (!isset($_POST['tarea']) || !isset($_POST['fecha_limite'])) {
 <body>
     <h2><?php echo "Bienvenido ". $_SESSION['usuario']; ?></h2><br><br>
     <h2>TAREAS</h2><br>
-    <!-- Mostrar las tareas en el dashboard -->
+    
     <?php 
     if (!empty($_SESSION['tareas'])) {
         foreach ($_SESSION['tareas'] as $tarea) {
@@ -49,7 +47,7 @@ if (!isset($_POST['tarea']) || !isset($_POST['fecha_limite'])) {
     }else{
         echo "<p>$vacio</p>";
     }
-    
+
     ?>
     <h2>Agregar Tareas</h2>
     <form action="dashboard.php" method="POST"></form>
