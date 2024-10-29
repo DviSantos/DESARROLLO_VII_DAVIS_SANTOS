@@ -22,7 +22,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 mysqli_close($conn);
 ?>
-
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
     <div><label>Nombre</label><input type="text" name="nombre" required></div>
     <div><label>Email</label><input type="email" name="email" required></div><br>

@@ -26,6 +26,7 @@ if($stmt = $pdo->prepare($sql)){
                     echo "</td>";
                 echo "</tr>";
             }
+            
             echo "</table>";
             echo "<button><a href = 'crear_usuario_pdo.php'>Crear usuario</a></button>";
         } else{

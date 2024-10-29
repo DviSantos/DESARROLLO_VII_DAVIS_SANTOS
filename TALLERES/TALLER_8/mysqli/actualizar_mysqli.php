@@ -18,7 +18,6 @@ if (isset($_GET["id"])) {
         echo "Usuario no encontrado.";
         exit();
     }
-
     mysqli_stmt_close($stmt);
 } else {
     echo "ID de usuario no válido.";

@@ -36,6 +36,5 @@ if ($result) {
 } else {
     echo "ERROR: No se pudo ejecutar $sql. " . mysqli_error($conn);
 }
-
 mysqli_close($conn);
 ?>

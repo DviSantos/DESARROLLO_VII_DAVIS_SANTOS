@@ -25,7 +25,6 @@ if (isset($_GET["id"])) {
     exit();
 }
 
-// Actualizar el usuario al enviar el formulario
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST["nombre"];
     $email = $_POST["email"];

@@ -18,6 +18,5 @@ if (isset($_GET["id"])) {
 } else {
     echo "ID de usuario no válido.";
 }
-
 mysqli_close($conn);
 ?>
